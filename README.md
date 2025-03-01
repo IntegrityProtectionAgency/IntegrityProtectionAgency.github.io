@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,12 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background: url('securityGuard.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
         }
         header {
-            background: #00274D;
+            background: rgba(0, 39, 77, 0.8);
             color: white;
             padding: 20px;
             text-align: center;
@@ -21,7 +22,7 @@
             font-weight: bold;
         }
         nav {
-            background: #004080;
+            background: rgba(0, 64, 128, 0.8);
             padding: 15px;
             text-align: center;
         }
@@ -37,9 +38,10 @@
             margin: auto;
             overflow: hidden;
             padding: 40px 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             border-radius: 10px;
+            color: black;
         }
         .section {
             margin-bottom: 30px;
@@ -61,7 +63,7 @@
             font-size: 16px;
         }
         footer {
-            background: #00274D;
+            background: rgba(0, 39, 77, 0.8);
             color: white;
             text-align: center;
             padding: 15px;
@@ -115,3 +117,4 @@
     </footer>
 </body>
 </html>
+![securityGuard](https://github.com/user-attachments/assets/85950a86-5db2-47ff-8844-b65002b28edd)
