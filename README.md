@@ -6,44 +6,66 @@
     <title>Integrity Protection Agency</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
+            color: #333;
         }
         header {
-            background: #333;
+            background: #00274D;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
-            font-size: 24px;
+            font-size: 28px;
+            font-weight: bold;
         }
         nav {
-            background: #444;
-            padding: 10px;
+            background: #004080;
+            padding: 15px;
             text-align: center;
         }
         nav a {
             color: white;
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
         }
         .container {
-            width: 80%;
+            width: 85%;
             margin: auto;
             overflow: hidden;
-            padding: 20px;
+            padding: 40px 20px;
             background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #00274D;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #eef3f8;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #004080;
+            font-size: 16px;
         }
         footer {
-            background: #333;
+            background: #00274D;
             color: white;
             text-align: center;
-            padding: 10px;
-            margin-top: 20px;
+            padding: 15px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -84,7 +106,7 @@
             <h2>Contact Us</h2>
             <p><strong>CEO Tysean Wallace</strong></p>
             <p>📞 (612) 327-5643</p>
-            <p>📧 [Your Email Here]</p>
+            <p>📧 integrityprotectionagency@gmail.com</p>
             <p>🌐 [Your Website URL]</p>
         </section>
     </div>
