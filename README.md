@@ -110,7 +110,7 @@
             <p><strong>CEO Tysean Wallace</strong></p>
             <p>📞 (612) 327-5643</p>
             <p>📧 integrityprotectionagency@gmail.com</p>
-            <p>🌐 [Your Website URL]</p>
+            <p>🌐 ipa20xx.github.io </p>
         </section>
     </div>
     <footer>
