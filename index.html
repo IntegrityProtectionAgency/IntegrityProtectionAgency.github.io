@@ -16,6 +16,65 @@
             });
         });
     </script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('IMG_20250303_121626_035.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: rgba(139, 69, 19, 0.9);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            background: rgba(184, 134, 11, 0.9);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .check-list li {
+            list-style: none;
+            font-size: 18px;
+            padding: 5px 0;
+            color: lightgreen;
+        }
+        footer {
+            background: rgba(139, 69, 19, 0.9);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
     <header>Integrity Protection Agency</header>
@@ -31,6 +90,11 @@
         <h2>Welcome to Integrity Protection Agency</h2>
         <p>Your trusted partner in security services.</p>
         <p>Explore our services and see how we can help protect what matters most to you.</p>
+    </section>
+    
+    <section id="mission" class="container">
+        <h2>Our Mission</h2>
+        <p>IPA was founded by veterans who served their country and now wanted to serve their communities. We have seen firsthand the impact of societal challenges, including the aftermath of George Floyd. Years after the event, we saw a rise in crime and a strain on law enforcement. Our mission is deeply rooted in our experiences and commitment to rebuilding trust between communities and law enforcement. We understand the importance of fostering positive relationships and are dedicated to this goal through our security services. Our team, composed of highly trained professionals, offers both armed and unarmed solutions and comprehensive risk assessments. Driven by our values of integrity and innovation, we strive to make a meaningful difference in every community we serve, aiming to create safer environments and stronger bonds through our work.</p>
     </section>
     
     <section id="services" class="container">
@@ -71,62 +135,3 @@
     </footer>
 </body>
 </html>
-
-<style>
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: black;
-    scroll-behavior: smooth;
-}
-header {
-    background: rgba(0, 39, 77, 0.8);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-}
-nav {
-    background: rgba(0, 64, 128, 0.8);
-    padding: 15px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-nav a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.container {
-    width: 85%;
-    margin: auto;
-    overflow: hidden;
-    padding: 40px 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 40px;
-}
-.check-list li {
-    list-style: none;
-    font-size: 18px;
-    padding: 5px 0;
-    color: green;
-}
-footer {
-    background: rgba(0, 39, 77, 0.8);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-</style>
