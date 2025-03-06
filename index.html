@@ -5,6 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrity Protection Agency</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('IPALOGO.png') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: rgba(0, 39, 77, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            background: rgba(0, 64, 128, 0.8);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .check-list li {
+            list-style: none;
+            font-size: 18px;
+            padding: 5px 0;
+            color: green;
+        }
+        footer {
+            background: rgba(0, 39, 77, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll("nav a").forEach(anchor => {
@@ -56,17 +115,6 @@
         </ul>
     </section>
     
-    <section id="testimonials" class="container">
-        <h2>What Our Clients Say</h2>
-        <p>Testimonial content will be added here.</p>
-    </section>
-    
-    <section id="contact" class="container">
-        <h2>Contact Integrity Protection Agency</h2>
-        <p>Call our CEO, Tysean Wallace: (612) 327-5643</p>
-        <p>Email: integrityprotectionagency@gmail.com</p>
-    </section>
-    
     <section id="careers" class="container">
         <h2>Join Our Team: Employment Opportunities at Integrity Protection Agency</h2>
         <p>At Integrity Protection Agency, we are committed to providing top-tier security services, ensuring safety and peace of mind for our clients. But our success isn’t just built on the technology and expertise we provide – it’s built on the dedication and skill of our incredible team members. If you’re passionate about security, technology, and making a real difference in the world, we want you to be a part of our growing family.</p>
@@ -88,62 +136,3 @@
     </footer>
 </body>
 </html>
-
-<style>
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: black;
-    scroll-behavior: smooth;
-}
-header {
-    background: rgba(0, 39, 77, 0.8);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-}
-nav {
-    background: rgba(0, 64, 128, 0.8);
-    padding: 15px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-nav a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.container {
-    width: 85%;
-    margin: auto;
-    overflow: hidden;
-    padding: 40px 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 40px;
-}
-.check-list li {
-    list-style: none;
-    font-size: 18px;
-    padding: 5px 0;
-    color: green;
-}
-footer {
-    background: rgba(0, 39, 77, 0.8);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-</style>
