@@ -31,6 +31,28 @@
             font-size: 28px;
             font-weight: bold;
         }
+         #floating-logo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#floating-logo img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    transition: transform 0.3s ease;
+}
+
+#floating-logo:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
         nav {
             background: rgba(30, 30, 30, 0.9);
             padding: 15px;
@@ -107,6 +129,30 @@
         <p>Your trusted partner in security services.</p>
         <p>Bridging together security and community.</p>
     </section>
+     <section id="team" class="container">
+    <h2>Meet the Team</h2>
+    
+    <div style="margin-bottom: 30px;">
+        <img src="DSC_0854.jpg" alt="Integrity Protection Agency Team" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 0 12px rgba(255,255,255,0.2);">
+    </div>
+    
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <div style="width: 280px; margin: 15px; background-color: rgba(60, 60, 60, 0.9); border-radius: 10px; padding: 20px;">
+            <h3>Tysean Wallace</h3>
+            <p>COO & Veteran Security Specialist. Passionate about community protection and veteran leadership.</p>
+        </div>
+        <div style="width: 280px; margin: 15px; background-color: rgba(60, 60, 60, 0.9); border-radius: 10px; padding: 20px;">
+            <h3>Tommy Le</h3>
+            <p>Operations Manager with expertise in urban and retail security logistics. Calm under pressure and dedicated.</p>
+        </div>
+        <div style="width: 280px; margin: 15px; background-color: rgba(60, 60, 60, 0.9); border-radius: 10px; padding: 20px;">
+            <h3>Monique Carter</h3>
+            <p>Client Relations Lead. Ensures every client interaction is professional, prompt, and protective.</p>
+        </div>
+    </div>
+</section>
+
+
     <section id="mission" class="container">
         <h2>Our Mission</h2>
         <p>Integrity Protection Agency was founded by veterans who served their country and now wanted to serve their communities. We have seen firsthand the impact of societal challenges, including the aftermath of the George Floyd incident. Years after the event, we saw a rise in crime and a strain on law enforcement.</p>
@@ -205,5 +251,9 @@
             }
         }
     </script>
+     <a href="#home" id="floating-logo">
+    <img src="IPALOGO.png" alt="IPA Logo">
+</a>
+
 </body>
 </html>
